@@ -1,0 +1,54 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body {
+  background-color: white;
+
+}
+.container {
+  margin-top: 10px;
+}
+
+.container h1 {
+  color:#034732;
+  font-weight: bold;
+}
+
+.container h2 {
+  color:#034732;
+
+}
+
+ul.list-index, ul.list-details {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.list-index a {
+  font-size: 20px;
+  background-color:white;
+  color:#034732
+}
+
+.link-add a, .link-to-list a {
+  font-size: 16px;
+  color:#FFB140;
+  background-color:#F7F06D;
+  padding:10px;
+  border-radius: 10px;
+}
+
+#new_review {
+  margin-bottom: 10px;
+}

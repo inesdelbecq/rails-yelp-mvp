@@ -1,0 +1,9 @@
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.input :address, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.input :category, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.input :phone_number, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.button :submit, class: "btn-primary mb-2" %>
+<% end %>
+
+<%= link_to 'Back', restaurants_path %>
